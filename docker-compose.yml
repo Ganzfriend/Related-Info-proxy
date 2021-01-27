@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+  related-info:
+    build: /src/app
+    depends_on:
+      - 'database'
+    ports:
+      - '3000:3000'
+
+  database:
+    image: mongo:latest

@@ -5,8 +5,7 @@
   "author": "Ganzfriend",
   "license": "ISC",
   "scripts": {
-    "start": "nodemon server.js",
-    "watch": "webpack --mode development -w"
+    "start": "nodemon server.js"
   },
   "dependencies": {
     "express": "^4.17.1",

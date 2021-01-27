@@ -1,0 +1,11 @@
+FROM node:14
+
+WORKDIR /src/app
+
+COPY . .
+
+RUN npm install
+
+EXPOSE 3005
+
+CMD ["npm", "start"]
