@@ -1,6 +1,6 @@
 FROM node:14
 
-WORKDIR /src/app
+WORKDIR /fec/relatedInfoProxy
 
 COPY . .
 
@@ -8,4 +8,4 @@ RUN npm install
 
 EXPOSE 3005
 
-CMD ["npm", "start"]
+CMD ["node", "server.js"]
