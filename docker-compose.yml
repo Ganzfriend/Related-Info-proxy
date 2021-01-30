@@ -13,6 +13,12 @@ services:
       - database
     ports:
       - 3001:3001
+  reviews:
+    image: ganzfriend/reviews:latest
+    depends_on:
+      - database
+    ports:
+      - 3004:3004
   proxy:
     image: ganzfriend/fec-proxy:latest
     depends_on:
