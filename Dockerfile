@@ -1,5 +1,4 @@
 FROM node:15.7.0
-
 WORKDIR /fec/relatedInfoProxy
 
 COPY . .
