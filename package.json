@@ -1,7 +1,6 @@
 {
   "name": "related-info-proxy",
   "version": "1.0.0",
-  "main": "index.js",
   "author": "Ganzfriend",
   "license": "ISC",
   "scripts": {
